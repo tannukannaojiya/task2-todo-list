@@ -1,0 +1,128 @@
+body{
+  background-color: #1f1e1e;
+  color:white;
+  overflow: hidden;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+.todo-wrapper{
+  background-color: #353434;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  padding: 2%;
+  max-height: 80vh;
+  width: fit-content;
+  overflow-y: auto;
+  box-shadow: 0rem 0.5rem 0.7rem rgb(27, 27, 27);
+}
+.todo-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  margin: 1.5rem;
+  border-bottom:0.1rem solid rgb(78, 78, 78) ;
+}
+.todo-input-item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 2rem;
+
+}
+.todo-input-item label{
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.todo-input-item input{
+  padding: 0.8rem;
+  border: none;
+  width: 20rem;
+}
+.todo-input-item input:focus{
+  outline: 0.2rem solid rgb(0, 230, 122);
+}
+.primaryBtn{
+  background-color: rgb(0, 230, 122);
+  border: none;
+  color: white;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 6rem;
+  cursor: pointer;
+  border-radius: 0rem;
+  font-weight: 900;
+}
+.primaryBtn:hover{
+  background-color: rgb(6, 89, 51);
+}
+.secondaryBtn{
+  background-color: rgb(77, 75, 75);
+  border: none;
+  color: white;
+  margin-top: .2rem;
+  padding: 1rem;
+  width: fit-content;
+  cursor: pointer;
+  border-radius: 0rem;
+  font-weight: 900;
+}
+.active{
+  background-color: rgb(0, 230, 122);
+}
+.todo-list{
+  display: flex;
+  flex-direction: column;
+}
+.btn-area{
+  margin-bottom: 1rem;
+}
+.todo-list-item{
+  background-color: #414040;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  padding-bottom: 1rem;
+  padding-top:1rem ;
+  margin-bottom: 1rem;
+  box-shadow: 0 .3rem .5rem rgb(43, 42, 42);
+}
+.todo-list-item h3{
+  font-size: 1.2rem;
+  color: rgb(0, 230, 122);
+  font-weight: bold;
+  margin-top: 0;
+}
+.todo-list-item p{
+  font-size: 1.2rem;
+  color: rgb(161,161,161);
+  margin-top: 0.8rem;
+}
+.icon{
+  font-size: 2rem;
+  cursor: pointer;
+  padding: .4rem;
+}
+.icon:hover{
+  color: red;
+}
+.cheak-icon{
+  padding: .4rem;
+  font-size: 1.9rem;
+  cursor: pointer;
+  color: rgb(71, 215, 148);
+}
+.cheak-icon:hover{
+  color: rgb(14, 124, 73);
+
+}
+
+
+
+
